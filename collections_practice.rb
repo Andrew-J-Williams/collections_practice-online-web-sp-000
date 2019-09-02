@@ -38,7 +38,7 @@ def swap_elements(array)
 
   #array.insert(1, array.delete_at(2))
   array.sort do |a, b|
-    if a < b
+    if array[a] < array[b]
       1
     end
   end
