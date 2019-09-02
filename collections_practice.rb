@@ -37,5 +37,11 @@ end
 def swap_elements(array)
 
   #array.insert(1, array.delete_at(2))
-
-end 
+  array.sort do |a, b|
+    if a.index == 1 && b.index == 2
+      a,b = b,a
+    else
+      0
+    end
+  end
+end
