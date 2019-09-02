@@ -63,7 +63,8 @@ end
 def find_a(array)
 
   array.each do |word|
-  
+
 
   end
+  
 end
