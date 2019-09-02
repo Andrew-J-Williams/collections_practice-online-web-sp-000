@@ -36,6 +36,6 @@ end
 
 def swap_elements(array)
 
-  array.insert
+  array.insert(1, array.delete_at(2))
 
 end
