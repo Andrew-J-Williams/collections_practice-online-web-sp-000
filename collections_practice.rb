@@ -12,6 +12,6 @@ array.sort do |number|
   elsif a > b
     -1
   end
-
+end
 
 end
