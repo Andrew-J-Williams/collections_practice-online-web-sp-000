@@ -62,6 +62,6 @@ end
 
 def find_a(array)
 
-  
+  array.detect {|word| word[0] == "a"}
 
 end
