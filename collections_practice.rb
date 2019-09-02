@@ -58,3 +58,14 @@ def kesha_maker(array)
   end
 
 end
+
+
+def find_a(array)
+
+  array.each do |word|
+    if word.first == "A" || word.first "a"
+      puts word
+    end
+
+  end
+end
