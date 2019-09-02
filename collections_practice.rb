@@ -63,7 +63,7 @@ end
 def find_a(array)
 
   array.each do |word|
-    if word.first == "A" || word.first == "a"
+    if word.first? == "A" || word.first? == "a"
       puts word
     end
 
